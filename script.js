@@ -12,5 +12,5 @@ $(document).ready(function() {
 	};
 
 	$(document).click(add_image);
-	$(document).on("vclick", "p", add_image);
+	$(document).on("tap", add_image);
 });
