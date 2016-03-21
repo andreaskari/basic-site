@@ -1,6 +1,5 @@
 $(document).ready(function() {
-
-	$(document).click(function() {
+	var add_image = function() {
     	var img = $('<img src="Icons/andre.png"/>');
     	var window_height = $(window).height();
     	var window_width = $(window).width();
@@ -10,6 +9,8 @@ $(document).ready(function() {
     	$(img).parent().css({position: 'relative'});
 		$(img).css({top: top_loc + "px", left: left_loc + "px", position:'absolute'});
     	$('div').append(img);
-	});
-	
+	};
+
+	$(document).click(add_image);
+	$(document).on("vclick", "p", add_image);
 });
