@@ -8,13 +8,9 @@ h1 {
 	font-size: 80px;
 	font-family: Avenir, Sans-Serif;
 	padding: 0px;
-	margin: 0px;
+	margin: 10px;
 }
-
-.andre_img {
-	position: absolute;
-}
-
-.highlight {
-	color: #FFA740;
+div {
+	height: 100vh;
+	width: 100vw;
 }
